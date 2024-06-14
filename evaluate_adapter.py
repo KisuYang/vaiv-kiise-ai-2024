@@ -1,16 +1,3 @@
-'''
-
-    Recommend to install the below versions:
-
-    transformers==4.41.2
-    flash-attn==2.5.9.post1
-    peft==0.11.1
-    vllm==0.4.3
-    torch==2.3.0
-
-'''
-
-
 import gc
 import os
 import re
