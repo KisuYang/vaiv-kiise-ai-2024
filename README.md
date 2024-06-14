@@ -17,6 +17,16 @@ python evaluate_adapter.py \
   --chatgpt_api_key CHATGPT_API_KEY
 ```
 
+## Recommended Library Versions
+
+```sh
+transformers==4.41.2
+flash-attn==2.5.9.post1
+peft==0.11.1
+vllm==0.4.3
+torch==2.3.0
+```
+
 ## Further Information
 
 - Competition Guidance: https://www.kiise.or.kr/conference/main/getContent.do?CC=kcc&CS=2024&content_no=2068&PARENT_ID=012000
