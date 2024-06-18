@@ -112,7 +112,7 @@ def evaluate_free_generation(
 
   # save responses
   dataset = dataset.add_column("response", responses)
-  dataset.save_to_disk(f"{model_name_or_path}/outputs")
+  dataset.save_to_disk(f"./outputs/{model_name_or_path}")
 
   # g-eval
   openai.api_key = chatgpt_api_key
